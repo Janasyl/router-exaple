@@ -5,7 +5,8 @@ import './About.css'
 
 const About = () => {
     return (
-        <div className="About">
+
+  <div className="About">
              <h1>About please !!!</h1>
              <h2>Чокуң</h2>
             <Audio 
@@ -16,6 +17,9 @@ const About = () => {
             
 
         </div>
+
+
+      
     )
 };
 

@@ -2,8 +2,18 @@
   text-align: center;
 }
 .href {
-  margin: 10px;
+color: rgb(255, 255, 255);
+text-decoration: none;
+margin: 10px;
+font-family: 'Cookie', cursive;
+font-size: 26px;
 }
+.href:hover {
+  background: #000;
+  color: beige;
+  border-radius:5px ;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
