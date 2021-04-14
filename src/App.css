@@ -1,16 +1,23 @@
 .App {
   text-align: center;
 }
-.href {
-color: rgb(255, 255, 255);
+a {
+color: #df4a4a;
 text-decoration: none;
 margin: 10px;
 font-family: 'Cookie', cursive;
 font-size: 26px;
 }
-.href:hover {
-  background: #000;
-  color: beige;
+/* .Veryhref {
+  color: #df4a4a;
+
+text-decoration: none;
+font-family: 'Cookie', cursive;
+font-size: 26px;
+} */
+a:hover {
+transition: .1ms;
+  color: rgb(14, 129, 150);
   border-radius:5px ;
 }
 

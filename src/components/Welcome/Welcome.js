@@ -11,6 +11,7 @@ import Powerslap from '../Video/Piano.mp4';
                  <video
                  autoPlay
                  loop
+                 muted
               style={{
                    position: "absolute",
                    width: "100%",

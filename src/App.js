@@ -10,12 +10,31 @@ function App() {
 <div>
 {/* start navigation */}
 <div className="nav">
-      <a className="href" href="welcome">Welcome</a>
+      <a className="Veryhref" href="welcome">Welcome</a>
       <a  className="href" href="home">Home</a>
       <a  className="href" href="about">About</a>
       <a  className="href" href="contact">Contact</a>
 </div>
+
 {/* end navigation */}
+
+<div className="nav">
+  <ul>
+    
+    
+          <li><a className="singer" href="billie">Billie</a></li>
+          <li> <a  className="singer" href="sam">SamSmith</a></li>
+          <li> <a  className="singer" href="begish">Begish</a></li>
+          <li><a  className="singer" href="sheeran">EdSheeran</a></li>
+    
+    {/* <li></li>
+    <li></li>
+    <li></li> */}
+  </ul>
+
+</div>
+
+
       <Route path="/welcome" component={Welcome} exact />
       <Route path="/about" component={About} exact />
       <Route path="/home" component={Home} />
