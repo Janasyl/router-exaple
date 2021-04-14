@@ -1,8 +1,11 @@
 import About from './components/About/About';
 import Contact from './components/Contacts/Contact';
 import Home  from './components/Home/Home';
-import Welcome from './components/Welcome/Welcome'
-import Billie from './Billie/Billie'
+import Welcome from './components/Welcome/Welcome';
+import Billie from './Billie/Billie';
+import Begish from './Begish/Begish';
+import Sam from './Sam/Sam';
+import Sheeran from './Sheeran/Sheeran';
 import { Route } from "react-router"
 import './App.css';
 
@@ -15,6 +18,7 @@ function App() {
       <a  className="href" href="home">Home</a>
       <a  className="href" href="about">About</a>
       <a  className="href" href="contact">Contact</a>
+
 </div>
 
 {/* end navigation */}
@@ -41,6 +45,10 @@ function App() {
       <Route path="/home" component={Home} />
       <Route path="/contact" component={Contact} />
       <Route path="/billie" component={Billie} />
+      <Route path="/begish" component={Begish} />
+      <Route path="/sam" component={Sam} />
+      <Route path="/sheeran" component={Sheeran} />
+
       
      
     </div>
