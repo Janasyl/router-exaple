@@ -2,6 +2,7 @@ import About from './components/About/About';
 import Contact from './components/Contacts/Contact';
 import Home  from './components/Home/Home';
 import Welcome from './components/Welcome/Welcome'
+import Billie from './Billie/Billie'
 import { Route } from "react-router"
 import './App.css';
 
@@ -39,6 +40,7 @@ function App() {
       <Route path="/about" component={About} exact />
       <Route path="/home" component={Home} />
       <Route path="/contact" component={Contact} />
+      <Route path="/billie" component={Billie} />
       
      
     </div>
