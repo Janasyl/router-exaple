@@ -7,14 +7,15 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <a href="home">Home</a>
-      <a href="about">About</a>
-      <a href="contact">Contact</a>
+      <a  className="href" href="home">Home</a>
+      <a  className="href" href="about">About</a>
+      <a  className="href" href="contact">Contact</a>
 
       <Route path="/about" component={About} />
+      <Route path="/home" component={Home} />
+      <Route path="/contact" component={Contact} />
       
-      <Contact />
-      <Home />
+     
     </div>
   );
 }
