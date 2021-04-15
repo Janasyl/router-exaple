@@ -159,13 +159,4 @@ const Vid = () => {
   );
 };
 
-//  const Billie = () => {
-//      return (
-//    <div className="Billie">
-//               <h1>Billie Elish</h1>
-
-//          </div>
-
-//      )
-//  };
 export default Vid;
