@@ -3,11 +3,12 @@ import Contact from './components/Contacts/Contact';
 import Home  from './components/Home/Home';
 import Welcome from './components/Welcome/Welcome';
 import Billie from './Billie/Billie';
-import Begish from './Begish/Begish';
+import Ulukmanapo from './Ulukmanapo/Ulukmanapo';
 import Sam from './Sam/Sam';
 import Sheeran from './Sheeran/Sheeran';
 import { Route } from "react-router"
 import './App.css';
+import Uluk from './Ulukmanapo/Ulukmanapo';
 
 function App() {
   return (
@@ -29,7 +30,7 @@ function App() {
     
           <li><a className="singer" href="billie">Billie</a></li>
           <li> <a  className="singer" href="sam">SamSmith</a></li>
-          <li> <a  className="singer" href="begish">Begish</a></li>
+          <li> <a  className="singer" href="ulukmanapo">Ulukmanapo</a></li>
           <li><a  className="singer" href="sheeran">EdSheeran</a></li>
     
     {/* <li></li>
@@ -45,7 +46,7 @@ function App() {
       <Route path="/home" component={Home} />
       <Route path="/contact" component={Contact} />
       <Route path="/billie" component={Billie} />
-      <Route path="/begish" component={Begish} />
+      <Route path="/ulukmanapo" component={Ulukmanapo} />
       <Route path="/sam" component={Sam} />
       <Route path="/sheeran" component={Sheeran} />
 

@@ -2,11 +2,15 @@
   text-align: center;
 }
 a {
-color: #df4a4a;
+color: #ffffff;
 text-decoration: none;
 margin: 10px;
 font-family: 'Cookie', cursive;
 font-size: 26px;
+}
+li {
+  list-style: none;
+  
 }
 /* .Veryhref {
   color: #df4a4a;
