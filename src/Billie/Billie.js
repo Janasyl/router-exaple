@@ -2,9 +2,10 @@ import React from "react";
 // import Audio from 'react-audio-player';
 // import Audio from 'react-audio-player';
 import "./Billie.css";
+import 
 // import './Other';
 import elish from "../components/Video/unnamed.jpg";
-import audio from "../components/Video/Bellyache.mp3";
+
 import Elish from "../components/Video/Elish.mp4";
 
 const Vid = () => {
@@ -147,13 +148,18 @@ const Vid = () => {
           expanded edition of Don't Smile at Me.
         </p>
       </div>
+      <div className="TitleVideo">
+        <h1>Video</h1>
+          <
+      </div>
+
     <div>
-    <audio
+    {/* <audio
   src="../Video/Bellyache.mp3"
   autoPlay
   controls
 
- ><source src={audio} type="audio/mp3" /></audio>
+ ><source src={audio} type="audio/mp3" /></audio> */}
     </div>
     </div>
   );
